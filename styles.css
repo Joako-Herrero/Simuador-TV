@@ -1,0 +1,81 @@
+*{
+	margin: 5px;
+	background-color: #000000;
+}
+
+/*video de ok*/
+.video{
+	height: 69.5vh;
+	width: 49.8vw;
+	margin: 0;
+	position:relative;
+	top: 71px;
+	left: 167px;
+	z-index: 1000;
+}
+/*botones del control*/
+.controlButtons{
+	margin: 20px;
+	list-style: none;
+	position: absolute;
+	left: 85%;
+}
+button{
+	background-color: white;
+	font-size: 20px;
+}
+/*marco de la tv con la pantalla transparente*/
+.marcoTV{
+	width:72vw;
+	height: 90vh;
+	position:absolute;
+	z-index: 900;
+}
+/*marco de la tv con los botones y la pantalla apagada*/
+.tvFondo{
+	width:74.15vw;
+	height: 116vh;
+	position:absolute;
+	z-index: 800;
+}
+
+.tv .chUp{
+	position:absolute;
+	border: 1px solid red;
+	width: 4px;
+	z-index: 1100;
+	left:37.8%;
+	top:95%;
+	background-color:transparent;
+}
+.tv .chDown{
+	background-color:transparent;
+	position:absolute;
+	border: 1px solid red;
+	width: 4px;
+	z-index: 1150;
+	left:35.5%;
+	top:95%;
+}
+.tv .encender{
+	background-color:transparent;
+	position:absolute;
+	border: 1px solid red;
+	width: 27px;
+	z-index: 1200;
+	left:45.5%;
+	top:95%;
+}
+
+.tv .skip{
+	background-color:transparent;
+	position:absolute;
+	border: 1px solid red;
+	width: 4px;
+	z-index: 1150;
+	left:29%;
+	top:95%;
+	
+}
+
+
